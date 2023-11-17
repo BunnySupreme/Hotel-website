@@ -1,0 +1,78 @@
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+        /* For mobile phones: (mobile first) */
+        /*wichtig sobald wir columns verwenden*/
+        [class*="col-"]{
+            width: 100%;
+        }
+        [class*="user_icon"]{
+            display: none
+        }
+        
+    
+    @media only screen and (min-width: 768px){
+    /* For desktop: */
+    /*Für wenn wir columns verwenden*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+    
+    .user_icon{border: 0px;}
+    
+
+    body {font-family: 'Courier New', Courier, monospace;}
+    body {background-color: #121212;
+        color: white;
+        padding:30px;}
+    h1 {font-family: 'Courier New', Courier, monospace;
+        color: white;}
+    h2 {font-family: 'Courier New', Courier, monospace;
+        color: white;}
+    p {color: white;
+        font-family: 'Courier New', Courier, monospace;}
+    .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+        }
+
+    .form-buchen {
+        max-width: 600px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+        
+
+
+
+    a:link {color: white; font-family: 'Courier New', Courier, monospace}
+    a:visited {color: white; font-family: 'Courier New', Courier, monospace}
+
+    footer {text-align: center;
+            font-family: 'Courier New', Courier, monospace;}
+    
+    ul {font-family: 'Courier New', Courier, monospace;}
+
+    .nav-left {float:left}
+    .nav-right {float:right}
+
+
+    
+
+
+</style>
